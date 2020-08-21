@@ -1,5 +1,6 @@
 import React from 'react';
 import { Text, View } from 'react-native';
+import Card from './components/Card'
 
 const App = () => {
   return (
@@ -9,7 +10,9 @@ const App = () => {
         justifyContent: "center",
         alignItems: "center"
       }}>
-      <Text>Hello, world!</Text>
+        <Card>
+          <Text>Hello, world!</Text>
+        </Card>
     </View>
   )
 }
